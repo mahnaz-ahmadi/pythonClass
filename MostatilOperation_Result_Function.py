@@ -1,5 +1,5 @@
 def mostatil_operation(tool, arz, dastoor):
-    result = 0;
+    result = 0
     if dastoor == "mohit":
         mohit = (int(tool) + int(arz)) * 2
         result = mohit
