@@ -1,5 +1,5 @@
 def number_result(number):
-    return float(number)
+    return float(number) + 1
 
 stringNumber = input("please input your number: ")
-print(number_result(stringNumber) + 1)
+print(number_result(stringNumber))
