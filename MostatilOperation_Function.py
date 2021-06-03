@@ -1,4 +1,4 @@
-def Mohite_Mostatil(tool, arz, dastoor):
+def mostatil_operation(tool, arz, dastoor):
     if dastoor == "mohit":
         mohit = (int(tool) + int(arz)) * 2
         print("mohite mostatil = ", mohit)
@@ -10,4 +10,4 @@ def Mohite_Mostatil(tool, arz, dastoor):
 tool = input("tool ra vared konid: ")
 arz = input("arz ra vared konid: ")
 dastoor = input("dastoore mohit ya masahat ra vared konid: ")
-Mohite_Mostatil(tool, arz, dastoor)
+mostatil_operation(tool, arz, dastoor)
