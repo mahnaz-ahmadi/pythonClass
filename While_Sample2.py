@@ -9,6 +9,6 @@ while number <= 100:
        number -= 1
        print(f"{number}")
     elif command == "stop":
-       break;
+       break
 
 print("end of loop")
