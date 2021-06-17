@@ -1,5 +1,5 @@
 
-students = ["mahnaz", "paniz", "mehrana", "farokh"]
+students =  "mahnaz paniz mehrana farokh".split(' ')
 
 counter = 1
 for item in students:
