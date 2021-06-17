@@ -5,7 +5,7 @@ def hop():
         if num1%pattern==0:
             print("Hop")
             player=input()
-            if (player)!=num1+1:
+            if float(player)!=num1+1:
                 print("What the hell is this? You lose !")
                 break
                 input()
