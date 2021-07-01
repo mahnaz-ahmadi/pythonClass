@@ -19,7 +19,7 @@ jo.age = 4
 jo.color = "black"
 
 print(jack.name)
-jack.hello();
+jack.hello()
 
 print(jo.name)
-jo.hello();
+jo.hello()
