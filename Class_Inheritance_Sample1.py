@@ -12,7 +12,7 @@ class Animal:
             print('this is my voice')
 
 
-class  Reptile(Animal):
+class Reptile(Animal):
     def __init__(self, name, age, weight, home):
         super().__init__(name, age, weight)
         self.home = home
