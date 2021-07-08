@@ -2,10 +2,9 @@ numeric_list = [8,4,6,7,9,1,1,3,6,9,15,128,32,78,0]
 
 def sort(list, sort_type):
     temp = 0
-    repeat = False
     pointer = 1
 
-    print("Origininal list", numeric_list)
+    print("Origininal list : ", numeric_list)
 
     while pointer < len(list):
         for index, value in enumerate(numeric_list):
@@ -25,7 +24,7 @@ def sort(list, sort_type):
                   continue
         pointer += 1
 
-    print("Sorted list", numeric_list)
+    print(f"{sort_type} Sorted list : ", numeric_list)
 
 
 sort(numeric_list, "ASC")
