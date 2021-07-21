@@ -5,7 +5,6 @@ class Contact:
         self.names =[]
         self.numbers =[]
 
-    #------------------------- PhoneBook ---------------------------#
     def phonebook(self):
         print('\nTotal Contacts found:',len(self.list))
         for contact in self.list:
@@ -13,7 +12,6 @@ class Contact:
             print('Phone Number:',contact[1])
             print('Email:',contact[2])
 
-    #-------------------------------------- Search Contact -----------------------------#
     def search(self,number=False,name=False):
 
         if name:
@@ -55,7 +53,6 @@ class Contact:
 
     def update(self, name=False,number=False):
 
-        # -------------------------------- Update Using Names ----------------------#
         if name:
             if name in self.names:
 
@@ -116,7 +113,6 @@ class Contact:
             else:
                 print('No contact Found!')
 
-    # -------------------------------- Update Using Numbers ----------------------#
         elif number:
             if number in self.numbers:
 
@@ -182,7 +178,6 @@ class Contact:
             print('No conatact Found..!')
 
 
-    #------------------------------ DELETE Contacts --------------------------#
     def delete(self,name=False,number=False):
 
         if name:
